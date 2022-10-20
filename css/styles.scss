@@ -56,7 +56,7 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     &.body-bg {
-        background: #464646 url("/img/backplate.jpg");
+        background: #464646 url("../img/backplate.jpg");
     }
 }
 p {
@@ -90,7 +90,7 @@ figure {
         justify-content: center;
     }
     &-bg {
-        background: url("/img/text-bg.svg");
+        background: url("../img/text-bg.svg");
         &--size {
             height: 100%;
             min-height: 100vh;
@@ -310,7 +310,7 @@ input {
 @media (min-width: 575.98px) {
     .content {
         &-bg {
-            background: url("/img/text-bg-lg.svg");
+            background: url("../img/text-bg-lg.svg");
         }
     }
     .card {

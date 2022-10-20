@@ -38,7 +38,7 @@ body {
   overflow-x: hidden;
 }
 body.body-bg {
-  background: #464646 url("/img/backplate.jpg");
+  background: #464646 url("../img/backplate.jpg");
 }
 
 p {
@@ -77,7 +77,7 @@ figure {
   justify-content: center;
 }
 .content-bg {
-  background: url("/img/text-bg.svg");
+  background: url("../img/text-bg.svg");
 }
 .content-bg--size {
   height: 100%;
@@ -285,7 +285,7 @@ input::placeholder {
 }
 @media (min-width: 575.98px) {
   .content-bg {
-    background: url("/img/text-bg-lg.svg");
+    background: url("../img/text-bg-lg.svg");
   }
 
   .card-br-content {
